@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "rootDir": "./src/env",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "types": [
+            "node",
+        ]
+    },
+    "lib": [
+        "es2015"
+    ],
+    "exclude": [
+        "./node_modules/",
+        "./dist/",
+        "./tests/"
+    ]
+}
